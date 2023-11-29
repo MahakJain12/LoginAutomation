@@ -13,9 +13,9 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
 
-public class Login{
 @Test
-    public void login() throws MalformedURLException, InterruptedException {
+public class Login{
+public void login() throws MalformedURLException, InterruptedException {
         
 	DesiredCapabilities capabilities=new DesiredCapabilities();
         capabilities.setCapability("platformName", "Android");
